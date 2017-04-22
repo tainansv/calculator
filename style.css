@@ -1,0 +1,80 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 90%;
+  font-family: arial, sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  width: 370px;
+  text-align:center;
+}
+
+.title{
+  font-size: 34px;
+  border-bottom:4px solid black;
+}
+
+#display {
+  padding: 5px;
+  background: lightgray;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.displayer{
+  display: block;
+  margin:10px 4px 0px;
+}
+
+#current{
+  font-size: 36px;
+}
+
+#history{
+  font-size: 20px;
+}
+
+#calculator {
+  background: gray;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px 5px black;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 60px;
+  margin: 2px 0px;
+  padding: 5px;
+  color: white;
+  background: black;
+  border: none;
+  font-size: 24px
+}
+
+button:hover{
+  background: #262626;
+}
+
+button:active{
+  background: #404040;
+}
+
+button:focus{
+  outline: none;
+}
+
+.bt-zero {
+  width: 164px;
+}
